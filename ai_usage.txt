@@ -39,4 +39,5 @@ how to check if there is any changes in each submodule in bash script?
 how to log the latest exit code in bash?
 If changes, display the diff, then prompt (Y/N): "Create commit for changes in <path>?" If Y, change to the submodule directory, stage all, run a commit (opens editor), return to parent, and stage the submodule. explain how can i do it, just some hints
 should i create a new sha?
+so how to update gitlink?
 Impact: check submodules functions.
