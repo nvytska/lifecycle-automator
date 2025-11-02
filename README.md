@@ -5,7 +5,7 @@ Group: SE530 Group 1
 ---
 
 **How to use script:**
-1. Clone repo: ```git clone ```
+1. Clone repo: ```git clone https://github.com/nvytska/lifecycle-automator.git```
 2. Create a clear environment to test: ```mkdir ~/git-tests && cd ~/git-tests```
 3. Copy script and make it executable: ```cp ../lifecycle-automator/repo-lifecycle.sh .```
 ```chmod +x repo-lifecycle.sh```
