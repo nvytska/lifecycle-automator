@@ -19,3 +19,6 @@ Group: SE530 Group 1
 |---------|-------------|
 | create | Initializes a git repo, with project name, default branch name, initial commit, sets up commit template, hook, and adds submodules |
 | validate | Checks if some existing commits does not match template |
+| submodule_check | Scans all submodules, looking for diffs and local cahnges |
+
+
