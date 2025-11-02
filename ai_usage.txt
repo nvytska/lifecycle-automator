@@ -1,0 +1,42 @@
+Link on chat where all responses are:
+https://chatgpt.com/share/690767fd-748c-8012-a2ae-e8f786fed6ce
+
+My prompts (sometimes grouped) and their impact:
+1. how to install commit-msg hook in bash script? 
+can i install it without separate commit-msg file? i mean kind of write it in my bash script
+Impact: understood how to put hook file to the same file.
+
+2. i have some commit msg template txt file, where is some "headers" are defined, how to check if there is this header in the commit?
+how to check if commit message starts with some chars?
+i need to grep it from the template file.
+how can i check that the section is not empty?
+will it work for multiple lines? i need to check is there some content after specific header.
+grep falls in this case:
+'pname-123: chagne
+
+section1:
+some changes
+
+section2:
+blablabla'
+Impact: writing hook-msg part.
+
+3. how to print table in bash?
+Impact: outputs in script.
+
+4.is there any flags for git log to exclude merge commits?
+is there any flag to see full commit message?
+i need to log some violations in existing commits messages, how can i logically do it? do not write full code in the answer, just give me some hints
+how to format date in y-m-d
+Impact: validate function.
+
+5. how to check repo for nested submodules? how can i check it in bash script?
+i do not want to use mapfile
+how to check if there is any submodules?
+i need to have all list of submodules
+how can i store them on list in bash script to have them logged
+how to check if there is any changes in each submodule in bash script?
+how to log the latest exit code in bash?
+If changes, display the diff, then prompt (Y/N): "Create commit for changes in <path>?" If Y, change to the submodule directory, stage all, run a commit (opens editor), return to parent, and stage the submodule. explain how can i do it, just some hints
+should i create a new sha?
+Impact: check submodules functions.
